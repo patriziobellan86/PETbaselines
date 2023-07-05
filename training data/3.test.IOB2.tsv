@@ -1,0 +1,1002 @@
+A	O
+small	O
+company	O
+manufactures	O
+customized	O
+bicycles	O
+.	O
+
+Whenever	O
+the	B-Actor
+sales	I-Actor
+department	I-Actor
+receives	B-Activity
+an	B-Activity Data
+order	I-Activity Data
+,	O
+a	O
+new	O
+process	O
+instance	O
+is	O
+created	O
+.	O
+
+A	O
+member	O
+of	O
+the	O
+sales	O
+department	O
+can	O
+then	O
+reject	B-Activity
+or	B-XOR Gateway
+accept	B-Activity
+the	B-Activity Data
+order	I-Activity Data
+for	O
+a	O
+customized	O
+bike	O
+.	O
+
+In	O
+the	O
+former	O
+case	O
+,	O
+the	O
+process	O
+instance	O
+is	O
+finished	O
+.	O
+
+In	O
+the	O
+latter	O
+case	O
+,	O
+the	B-Actor
+storehouse	I-Actor
+and	O
+the	B-Actor
+engineering	I-Actor
+department	I-Actor
+are	O
+informed	B-Activity
+.	O
+
+The	B-Actor
+storehouse	I-Actor
+immediately	O
+processes	B-Activity
+the	B-Activity Data
+part	I-Activity Data
+list	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+order	I-Activity Data
+and	O
+checks	B-Activity
+the	B-Activity Data
+required	I-Activity Data
+quantity	I-Activity Data
+of	I-Activity Data
+each	I-Activity Data
+part	I-Activity Data
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+part	I-Condition Specification
+is	I-Condition Specification
+available	I-Condition Specification
+in-house	I-Condition Specification
+,	O
+it	B-Activity Data
+is	O
+reserved	B-Activity
+.	O
+
+If	B-XOR Gateway
+it	B-Condition Specification
+is	I-Condition Specification
+not	I-Condition Specification
+available	I-Condition Specification
+,	O
+it	B-Activity Data
+is	O
+back-ordered	B-Activity
+.	O
+
+This	O
+procedure	O
+is	O
+repeated	O
+for	O
+each	O
+item	O
+on	O
+the	O
+part	O
+list	O
+.	O
+
+In	B-AND Gateway
+the	I-AND Gateway
+meantime	I-AND Gateway
+,	O
+the	B-Actor
+engineering	I-Actor
+department	I-Actor
+prepares	B-Activity
+everything	B-Activity Data
+for	O
+the	O
+assembling	O
+of	O
+the	O
+ordered	O
+bicycle	O
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+storehouse	I-Condition Specification
+has	I-Condition Specification
+successfully	I-Condition Specification
+reserved	I-Condition Specification
+or	I-Condition Specification
+back-ordered	I-Condition Specification
+every	I-Condition Specification
+item	I-Condition Specification
+of	I-Condition Specification
+the	I-Condition Specification
+part	I-Condition Specification
+list	I-Condition Specification
+and	O
+the	O
+preparation	O
+activity	O
+has	O
+finished	O
+,	O
+the	B-Actor
+engineering	I-Actor
+department	I-Actor
+assembles	B-Activity
+the	B-Activity Data
+bicycle	I-Activity Data
+.	O
+
+Afterwards	O
+,	O
+the	B-Actor
+sales	I-Actor
+department	I-Actor
+ships	B-Activity
+the	B-Activity Data
+bicycle	I-Activity Data
+to	O
+the	B-Actor
+customer	I-Actor
+and	O
+finishes	O
+the	O
+process	O
+instance	O
+.	O
+
+The	O
+Evanstonian	O
+is	O
+an	O
+upscale	O
+independent	O
+hotel	O
+.	O
+
+When	O
+a	B-Actor
+guest	I-Actor
+calls	B-Activity
+room	B-Actor
+service	I-Actor
+at	O
+The	O
+Evanstonian	O
+,	O
+the	B-Actor
+room-service	I-Actor
+manager	I-Actor
+takes	B-Activity
+down	I-Activity
+the	B-Activity Data
+order	I-Activity Data
+.	O
+
+She	B-Actor
+then	O
+submits	B-Activity
+an	B-Activity Data
+order	I-Activity Data
+ticket	I-Activity Data
+to	O
+the	B-Actor
+kitchen	I-Actor
+to	B-Further Specification
+begin	I-Further Specification
+preparing	I-Further Specification
+the	I-Further Specification
+food	I-Further Specification
+.	O
+
+She	B-Actor
+also	O
+gives	B-Activity
+an	B-Activity Data
+order	I-Activity Data
+to	O
+the	B-Actor
+sommelier	I-Actor
+(	O
+i.e	O
+.	O
+,	O
+the	O
+wine	O
+waiter	O
+)	O
+to	B-Further Specification
+fetch	I-Further Specification
+wine	I-Further Specification
+from	I-Further Specification
+the	I-Further Specification
+cellar	I-Further Specification
+and	I-Further Specification
+to	I-Further Specification
+prepare	I-Further Specification
+any	I-Further Specification
+other	I-Further Specification
+alcoholic	I-Further Specification
+beverages	I-Further Specification
+.	O
+
+Eighty	O
+percent	O
+of	O
+room-service	O
+orders	O
+include	O
+wine	O
+or	O
+some	O
+other	O
+alcoholic	O
+beverage	O
+.	O
+
+Finally	O
+,	O
+she	B-Actor
+assigns	B-Activity
+the	B-Activity Data
+order	I-Activity Data
+to	O
+the	B-Actor
+waiter	I-Actor
+.	O
+
+While	B-AND Gateway
+the	B-Actor
+kitchen	I-Actor
+and	O
+the	B-Actor
+sommelier	I-Actor
+are	O
+doing	B-Activity
+their	B-Activity Data
+tasks	I-Activity Data
+,	O
+the	B-Actor
+waiter	I-Actor
+readies	B-Activity
+a	B-Activity Data
+cart	I-Activity Data
+(	O
+i.e	O
+.	O
+,	O
+puts	O
+a	O
+tablecloth	O
+on	O
+the	O
+cart	O
+and	O
+gathers	O
+silverware	O
+)	O
+.	O
+
+The	O
+waiter	O
+is	O
+also	O
+responsible	O
+for	O
+nonalcoholic	O
+drinks	O
+.	O
+
+Once	O
+the	O
+food	O
+,	O
+wine	O
+,	O
+and	O
+cart	O
+are	O
+ready	O
+,	O
+the	B-Actor
+waiter	I-Actor
+delivers	B-Activity
+it	B-Activity Data
+to	O
+the	B-Actor
+guest	I-Actor
+’	I-Actor
+s	I-Actor
+room	I-Actor
+.	O
+
+After	O
+returning	B-Activity
+to	B-Further Specification
+the	I-Further Specification
+room-service	I-Further Specification
+station	I-Further Specification
+,	O
+the	B-Actor
+waiter	I-Actor
+debits	B-Activity
+the	B-Activity Data
+guest	I-Activity Data
+’	I-Activity Data
+s	I-Activity Data
+account	I-Activity Data
+.	O
+
+The	B-Actor
+waiter	I-Actor
+may	O
+wait	B-Activity
+to	B-Activity Data
+do	I-Activity Data
+the	I-Activity Data
+billing	I-Activity Data
+if	B-XOR Gateway
+he	B-Condition Specification
+has	I-Condition Specification
+another	I-Condition Specification
+order	I-Condition Specification
+to	I-Condition Specification
+prepare	I-Condition Specification
+or	I-Condition Specification
+deliver	I-Condition Specification
+.	O
+
+If	B-XOR Gateway
+the	B-Actor
+MPOO	I-Actor
+sends	B-Activity
+the	B-Activity Data
+bill	I-Activity Data
+for	I-Activity Data
+the	I-Activity Data
+temporary	I-Activity Data
+continuation	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+metering	I-Activity Data
+point	I-Activity Data
+operations	I-Activity Data
+to	O
+the	B-Actor
+GO	I-Actor
+,	O
+the	B-Actor
+GO	I-Actor
+examines	B-Activity
+the	B-Activity Data
+bill	I-Activity Data
+.	O
+
+If	B-XOR Gateway
+the	B-Actor
+MSPO	I-Actor
+sends	B-Activity
+the	B-Activity Data
+bill	I-Activity Data
+for	I-Activity Data
+the	I-Activity Data
+temporary	I-Activity Data
+continuation	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+measurement	I-Activity Data
+to	O
+the	B-Actor
+GO	I-Actor
+,	O
+the	B-Actor
+GO	I-Actor
+examines	B-Activity
+the	B-Activity Data
+bill	I-Activity Data
+.	O
+
+If	B-XOR Gateway
+the	B-Actor
+MSPO	I-Actor
+sends	B-Activity
+the	B-Activity Data
+bill	I-Activity Data
+for	I-Activity Data
+additional	I-Activity Data
+readings	I-Activity Data
+to	O
+the	B-Actor
+GO	I-Actor
+,	O
+the	B-Actor
+GO	I-Actor
+examines	B-Activity
+the	B-Activity Data
+bill	I-Activity Data
+.	O
+
+If	B-XOR Gateway
+the	B-Actor
+MPOO	I-Actor
+sends	B-Activity
+the	B-Activity Data
+bill	I-Activity Data
+for	I-Activity Data
+the	I-Activity Data
+equipment	I-Activity Data
+acquisition	I-Activity Data
+to	O
+the	B-Actor
+MPON	I-Actor
+or	I-Actor
+the	I-Actor
+GO	I-Actor
+,	O
+the	B-Actor
+MPON	I-Actor
+or	I-Actor
+the	I-Actor
+GO	I-Actor
+examines	B-Activity
+the	B-Activity Data
+bill	I-Activity Data
+.	O
+
+The	B-Actor
+GO	I-Actor
+or	I-Actor
+the	I-Actor
+MPON	I-Actor
+confirms	B-Activity
+the	B-Activity Data
+invoice	I-Activity Data
+with	I-Activity Data
+payment	I-Activity Data
+advice	I-Activity Data
+to	O
+the	B-Actor
+MPOO	I-Actor
+or	I-Actor
+the	I-Actor
+MSPO	I-Actor
+,	O
+or	B-XOR Gateway
+the	B-Actor
+GO	I-Actor
+or	I-Actor
+the	I-Actor
+MPON	I-Actor
+rejects	B-Activity
+the	B-Activity Data
+invoice	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+MPOO	I-Activity Data
+or	I-Activity Data
+the	I-Activity Data
+MSPO	I-Activity Data
+.	O
+
+The	B-Actor
+MPOO	I-Actor
+deregisters	B-Activity
+at	O
+the	B-Actor
+GO	I-Actor
+.	O
+
+The	B-Actor
+GO	I-Actor
+verifies	B-Activity
+the	B-Activity Data
+deregistration	I-Activity Data
+.	O
+
+The	B-Actor
+GO	I-Actor
+rejects	B-Activity
+the	B-Activity Data
+deregistration	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+MPOO	I-Activity Data
+or	B-XOR Gateway
+the	B-Actor
+GO	I-Actor
+preliminarily	B-Further Specification
+confirms	B-Activity
+the	B-Activity Data
+deregistration	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+MPOO	I-Activity Data
+.	O
+
+The	B-Actor
+GO	I-Actor
+prepares	B-Activity
+the	B-Activity Data
+readmission	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+measuring	I-Activity Data
+point	I-Activity Data
+.	O
+
+Optionally	O
+,	O
+the	O
+GO	O
+may	O
+oblige	O
+the	O
+MPOO	O
+to	O
+continue	O
+the	O
+operations	O
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+GO	I-Condition Specification
+binds	I-Condition Specification
+the	I-Condition Specification
+MPOO	I-Condition Specification
+to	I-Condition Specification
+continue	I-Condition Specification
+the	I-Condition Specification
+operation	I-Condition Specification
+,	O
+the	B-Actor
+MPOO	I-Actor
+confirmes	B-Activity
+the	B-Activity Data
+continuation	I-Activity Data
+to	O
+the	B-Actor
+MPOO	I-Actor
+.	O
+
+The	B-Actor
+GO	I-Actor
+performs	B-Activity
+the	B-Activity Data
+equipment	I-Activity Data
+acquisition	I-Activity Data
+and	I-Activity Data
+/	I-Activity Data
+or	I-Activity Data
+equipment	I-Activity Data
+changes	I-Activity Data
+.	O
+
+The	B-Actor
+GO	I-Actor
+assigns	B-Activity
+the	B-Activity Data
+GO	I-Activity Data
+as	I-Activity Data
+MPO	I-Activity Data
+.	O
+
+The	B-Actor
+GO	I-Actor
+informs	B-Activity
+the	B-Actor
+MPOO	I-Actor
+about	B-Activity Data
+the	I-Activity Data
+end	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+assignment	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+MPOO	I-Activity Data
+and	I-Activity Data
+the	I-Activity Data
+beginning	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+assignment	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+GO	I-Activity Data
+.	O
+
+The	B-Actor
+GO	I-Actor
+informs	B-Activity
+the	B-Actor
+MSPO	I-Actor
+about	B-Activity Data
+the	I-Activity Data
+assignment	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+GO	I-Activity Data
+.	O
+
+The	B-Actor
+GO	I-Actor
+informs	B-Activity
+the	B-Actor
+SP	I-Actor
+about	B-Activity Data
+the	I-Activity Data
+assignment	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+GO	I-Activity Data
+.	O
+
+The	B-Actor
+MPON	I-Actor
+requests	B-Activity
+a	B-Activity Data
+device	I-Activity Data
+takeover	I-Activity Data
+bid	I-Activity Data
+of	O
+the	B-Actor
+MPOO	I-Actor
+.	O
+
+The	B-Actor
+MPOO	I-Actor
+sends	B-Activity
+a	B-Activity Data
+tender	I-Activity Data
+for	I-Activity Data
+the	I-Activity Data
+equipment	I-Activity Data
+takeover	I-Activity Data
+to	O
+the	B-Actor
+MPON	I-Actor
+.	O
+
+The	B-Actor
+MPON	I-Actor
+places	B-Activity
+an	B-Activity Data
+order	I-Activity Data
+at	O
+the	B-Actor
+MPOO	I-Actor
+.	O
+
+The	B-Actor
+MPOO	I-Actor
+confirms	B-Activity
+the	B-Activity Data
+order	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+MPON	I-Activity Data
+and	O
+sends	B-Activity
+the	B-Activity Data
+master	I-Activity Data
+data	I-Activity Data
+.	O
+
+After	O
+a	B-Activity Data
+claim	I-Activity Data
+is	O
+registered	B-Activity
+,	O
+it	B-Activity Data
+is	O
+examined	B-Activity
+by	O
+a	B-Actor
+claims	I-Actor
+officer	I-Actor
+.	O
+
+The	B-Actor
+claims	I-Actor
+officer	I-Actor
+then	O
+writes	B-Activity
+a	B-Activity Data
+settlement	I-Activity Data
+recommendation	I-Activity Data
+.	O
+
+This	B-Activity Data
+recommendation	I-Activity Data
+is	O
+then	O
+checked	B-Activity
+by	O
+a	B-Actor
+senior	I-Actor
+claims	I-Actor
+officer	I-Actor
+who	O
+may	O
+mark	B-Activity
+the	B-Activity Data
+claim	I-Activity Data
+as	B-Further Specification
+OK	I-Further Specification
+or	I-Further Specification
+Not	I-Further Specification
+OK	I-Further Specification
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+claim	I-Condition Specification
+is	I-Condition Specification
+marked	I-Condition Specification
+as	I-Condition Specification
+Not	I-Condition Specification
+OK	I-Condition Specification
+,	O
+it	B-Activity Data
+is	O
+sent	B-Activity
+back	I-Activity
+to	O
+the	B-Actor
+claims	I-Actor
+officer	I-Actor
+and	O
+the	O
+recommendation	O
+is	O
+repeated	O
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+claim	I-Condition Specification
+is	I-Condition Specification
+OK	I-Condition Specification
+,	O
+the	B-Activity Data
+claim	I-Activity Data
+handling	I-Activity Data
+process	I-Activity Data
+proceeds	B-Activity
+.	O
+
+First	O
+,	O
+the	B-Actor
+Manager	I-Actor
+checks	B-Activity
+the	B-Activity Data
+open	I-Activity Data
+leads	I-Activity Data
+.	O
+
+Afterwards	O
+,	O
+he	B-Actor
+selects	B-Activity
+the	B-Activity Data
+top	I-Activity Data
+five	I-Activity Data
+ones	I-Activity Data
+.	O
+
+He	B-Actor
+then	O
+tells	B-Activity
+his	O
+Sales	B-Actor
+Assistant	I-Actor
+to	B-Activity Data
+call	I-Activity Data
+the	I-Activity Data
+contact	I-Activity Data
+person	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+leads	I-Activity Data
+.	O
+
+The	B-Actor
+Sales	I-Actor
+Assistant	I-Actor
+calls	B-Activity
+each	B-Activity Data
+customer	I-Activity Data
+.	O
+
+If	B-XOR Gateway
+someone	B-Condition Specification
+is	I-Condition Specification
+interested	I-Condition Specification
+,	O
+he	B-Actor
+sends	B-Activity
+a	B-Activity Data
+note	I-Activity Data
+to	O
+the	B-Actor
+Manager	I-Actor
+.	O
+
+The	B-Actor
+Manager	I-Actor
+then	O
+processes	B-Activity
+the	B-Activity Data
+lead	I-Activity Data
+.	O
+
+Otherwise	B-XOR Gateway
+,	O
+he	B-Actor
+calls	B-Activity
+the	B-Activity Data
+next	I-Activity Data
+customer	I-Activity Data
+.	O
+
+Once	O
+the	B-Activity Data
+dates	I-Activity Data
+are	O
+finalized	B-Activity
+(	O
+by	O
+the	B-Actor
+Coordination	I-Actor
+Unit	I-Actor
+)	O
+,	O
+the	B-Actor
+Support	I-Actor
+Officer	I-Actor
+updates	B-Activity
+all	B-Activity Data
+group	I-Activity Data
+calendars	I-Activity Data
+and	O
+creates	B-Activity
+meeting	B-Activity Data
+folders	I-Activity Data
+for	I-Activity Data
+each	I-Activity Data
+meeting	I-Activity Data
+and	O
+ensures	B-Activity
+all	B-Activity Data
+appropriate	I-Activity Data
+documents	I-Activity Data
+are	I-Activity Data
+uploaded	I-Activity Data
+to	I-Activity Data
+system	I-Activity Data
+.	O
+
+Committee	B-Actor
+Members	I-Actor
+are	O
+advised	B-Activity
+a	O
+week	O
+before	O
+each	O
+meeting	O
+to	O
+read	O
+all	O
+related	O
+documents	O
+.	O
+
+The	B-Actor
+Committee	I-Actor
+Members	I-Actor
+hold	B-Activity
+their	B-Activity Data
+meeting	I-Activity Data
+,	O
+and	O
+the	B-Actor
+Support	I-Actor
+Office	I-Actor
+then	O
+produces	B-Activity
+minutes	B-Activity Data
+including	O
+any	O
+Action	O
+Points	O
+for	O
+each	O
+Committee	O
+Member	O
+.	O
+
+Within	O
+5	O
+working	O
+days	O
+,	O
+the	B-Actor
+Coordination	I-Actor
+Unit	I-Actor
+must	O
+conduct	B-Activity
+a	B-Activity Data
+QA	I-Activity Data
+check	I-Activity Data
+on	I-Activity Data
+the	I-Activity Data
+minutes	I-Activity Data
+,	O
+which	B-Activity Data
+are	O
+then	O
+sent	B-Activity
+to	O
+all	B-Actor
+Committee	I-Actor
+Members	I-Actor
+.	O
+
+The	B-Actor
+Support	I-Actor
+Officer	I-Actor
+then	O
+updates	B-Activity
+all	B-Activity Data
+departmental	I-Activity Data
+records	I-Activity Data
+.	O
+

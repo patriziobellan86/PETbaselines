@@ -1,0 +1,1001 @@
+The	B-Actor
+MPON	I-Actor
+sents	B-Activity
+the	B-Activity Data
+dismissal	I-Activity Data
+to	O
+the	B-Actor
+MPOO	I-Actor
+.	O
+
+The	B-Actor
+MPOO	I-Actor
+reviews	B-Activity
+the	B-Activity Data
+dismissal	I-Activity Data
+.	O
+
+The	B-Actor
+MPOO	I-Actor
+opposes	B-Activity
+the	B-Activity Data
+dismissal	I-Activity Data
+of	O
+MPON	O
+or	B-XOR Gateway
+the	B-Actor
+MPOO	I-Actor
+confirmes	B-Activity
+the	B-Activity Data
+dismissal	I-Activity Data
+of	O
+the	O
+MPON	O
+.	O
+
+The	B-Actor
+fault	I-Actor
+detector	I-Actor
+reports	B-Activity
+a	B-Activity Data
+failure	I-Activity Data
+to	O
+the	B-Actor
+MPO	I-Actor
+or	B-XOR Gateway
+MPO	B-Actor
+has	O
+a	O
+suspicion	B-Activity
+of	B-Activity Data
+their	I-Activity Data
+own	I-Activity Data
+fault	I-Activity Data
+.	O
+
+The	B-Actor
+MPO	I-Actor
+shall	O
+examine	B-Activity
+the	B-Activity Data
+failure	I-Activity Data
+.	O
+
+The	B-Actor
+MPO	I-Actor
+rejects	B-Activity
+the	B-Activity Data
+failure	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+fault	I-Activity Data
+detector	I-Activity Data
+or	B-XOR Gateway
+the	B-Actor
+MPO	I-Actor
+confirms	B-Activity
+the	B-Activity Data
+failure	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+fault	I-Activity Data
+detector	I-Activity Data
+.	O
+
+If	O
+the	O
+MPO	O
+confirms	O
+the	O
+failure	O
+of	O
+the	O
+fault	O
+detector	O
+,	O
+he	B-Actor
+informes	B-Activity
+the	B-Actor
+GO	I-Actor
+and	O
+the	B-Actor
+MSP	I-Actor
+.	O
+
+The	B-Actor
+MPO	I-Actor
+fixes	B-Activity
+the	B-Activity Data
+fault	I-Activity Data
+at	I-Activity Data
+the	I-Activity Data
+measuring	I-Activity Data
+device	I-Activity Data
+.	O
+
+The	B-Actor
+MPO	I-Actor
+shares	B-Activity
+the	B-Activity Data
+results	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+repairs	I-Activity Data
+carried	B-Further Specification
+out	I-Further Specification
+with	I-Further Specification
+the	I-Further Specification
+fault	I-Further Specification
+detector	I-Further Specification
+.	O
+
+The	B-Actor
+MPO	I-Actor
+will	O
+inform	B-Activity
+the	B-Actor
+GO	I-Actor
+about	B-Activity Data
+the	I-Activity Data
+resolution	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+interference	I-Activity Data
+.	O
+
+The	B-Actor
+MPO	I-Actor
+will	O
+inform	B-Activity
+the	B-Actor
+MSP	I-Actor
+about	B-Activity Data
+the	I-Activity Data
+resolution	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+interference	I-Activity Data
+.	O
+
+The	B-Actor
+GO	I-Actor
+requests	B-Activity
+the	B-Activity Data
+measurements	I-Activity Data
+of	O
+the	B-Actor
+MSP	I-Actor
+.	O
+
+The	B-Actor
+MSP	I-Actor
+checks	B-Activity
+the	B-Activity Data
+received	I-Activity Data
+request	I-Activity Data
+.	O
+
+The	B-Actor
+MSP	I-Actor
+denies	B-Activity
+the	B-Activity Data
+request	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+GO	I-Activity Data
+or	B-XOR Gateway
+the	B-Actor
+MSP	I-Actor
+performs	B-Activity
+the	B-Activity Data
+measurement	I-Activity Data
+.	O
+
+The	B-Actor
+MSP	I-Actor
+informs	B-Activity
+the	B-Actor
+GO	I-Actor
+about	B-Activity Data
+the	I-Activity Data
+failure	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+reading	I-Activity Data
+or	B-XOR Gateway
+the	B-Actor
+MSP	I-Actor
+transmits	B-Activity
+the	B-Activity Data
+measured	I-Activity Data
+values	I-Activity Data
+to	O
+the	B-Actor
+GO	I-Actor
+.	O
+
+The	B-Actor
+GO	I-Actor
+processes	B-Activity
+the	B-Activity Data
+measured	I-Activity Data
+values	I-Activity Data
+.	O
+
+The	B-Actor
+GO	I-Actor
+sents	B-Activity
+the	B-Activity Data
+changed	I-Activity Data
+values	I-Activity Data
+to	O
+the	B-Actor
+MSP	I-Actor
+.	O
+
+The	B-Actor
+GO	I-Actor
+transmit	B-Activity
+the	B-Activity Data
+readings	I-Activity Data
+to	O
+the	B-Actor
+SP	I-Actor
+.	O
+
+The	B-Actor
+EC	I-Actor
+tells	B-Activity
+the	B-Actor
+INQ	I-Actor
+about	B-Activity Data
+the	I-Activity Data
+change	I-Activity Data
+of	I-Activity Data
+his	I-Activity Data
+master	I-Activity Data
+data	I-Activity Data
+.	O
+
+The	B-Actor
+INQ	I-Actor
+notifies	B-Activity
+the	B-Actor
+IP	I-Actor
+of	O
+the	B-Activity Data
+change	I-Activity Data
+.	O
+
+The	B-Actor
+IP	I-Actor
+checks	B-Activity
+whether	B-Further Specification
+the	I-Further Specification
+master	I-Further Specification
+data	I-Further Specification
+can	I-Further Specification
+be	I-Further Specification
+changed	I-Further Specification
+at	I-Further Specification
+the	I-Further Specification
+desired	I-Further Specification
+time	I-Further Specification
+.	O
+
+The	B-Actor
+IP	I-Actor
+confirmes	B-Activity
+the	B-Activity Data
+changes	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+INQ	I-Activity Data
+or	B-XOR Gateway
+the	B-Actor
+IP	I-Actor
+rejectes	B-Activity
+the	B-Activity Data
+changes	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+INQ	I-Activity Data
+.	O
+
+The	B-Actor
+INQ	I-Actor
+transmits	B-Activity
+the	B-Activity Data
+transaction	I-Activity Data
+data	I-Activity Data
+request	I-Activity Data
+to	O
+the	B-Actor
+IP	I-Actor
+.	O
+
+The	B-Actor
+IP	I-Actor
+checks	B-Activity
+the	B-Activity Data
+request	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+INQ	I-Activity Data
+.	O
+
+The	B-Actor
+IP	I-Actor
+answers	B-Activity
+the	B-Activity Data
+question	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+INQ	I-Activity Data
+depending	B-Further Specification
+on	I-Further Specification
+the	I-Further Specification
+outcome	I-Further Specification
+of	I-Further Specification
+the	I-Further Specification
+examination	I-Further Specification
+,	O
+i.e	O
+.	O
+Transmission	O
+of	O
+data	O
+or	O
+rejection	O
+.	O
+
+The	B-Actor
+MPON	I-Actor
+notifies	B-Activity
+the	B-Actor
+MPOO	I-Actor
+about	B-Activity Data
+equipment	I-Activity Data
+change	I-Activity Data
+intentions	I-Activity Data
+.	O
+
+The	B-Actor
+MPOO	I-Actor
+announces	B-Activity
+self	B-Activity Data
+dismounting	I-Activity Data
+to	O
+the	B-Actor
+MPON	I-Actor
+or	B-XOR Gateway
+
+the	B-Actor
+MPOO	I-Actor
+shall	O
+notify	B-Activity
+the	B-Actor
+MPON	I-Actor
+about	B-Activity Data
+no	I-Activity Data
+self-dismounting	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+MPOO	I-Activity Data
+.	O
+
+The	B-Actor
+MPON	I-Actor
+or	I-Actor
+the	I-Actor
+MPOO	I-Actor
+perform	B-Activity
+the	B-Activity Data
+final	I-Activity Data
+reading	I-Activity Data
+.	O
+
+The	B-Actor
+MPON	I-Actor
+or	I-Actor
+the	I-Actor
+MPOO	I-Actor
+dismount	B-Activity
+the	B-Activity Data
+old	I-Activity Data
+equipment	I-Activity Data
+.	O
+
+The	B-Actor
+MPON	I-Actor
+mounts	B-Activity
+the	B-Activity Data
+new	I-Activity Data
+device	I-Activity Data
+.	O
+
+The	B-Actor
+MPON	I-Actor
+reads	B-Activity
+the	B-Activity Data
+meter	I-Activity Data
+count	I-Activity Data
+from	O
+the	O
+installed	O
+meter	O
+.	O
+
+The	B-Actor
+MPON	I-Actor
+sents	B-Activity
+the	B-Activity Data
+values	I-Activity Data
+of	I-Activity Data
+the	I-Activity Data
+final	I-Activity Data
+reading	I-Activity Data
+to	O
+the	B-Actor
+GO	I-Actor
+.	O
+
+The	B-Actor
+MPON	I-Actor
+tells	B-Activity
+the	B-Actor
+GO	I-Actor
+about	B-Activity Data
+the	I-Activity Data
+device	I-Activity Data
+changes	I-Activity Data
+,	I-Activity Data
+the	I-Activity Data
+master	I-Activity Data
+data	I-Activity Data
+and	I-Activity Data
+the	I-Activity Data
+meter	I-Activity Data
+count	I-Activity Data
+at	I-Activity Data
+installation	I-Activity Data
+.	O
+
+The	B-Actor
+GO	I-Actor
+shall	O
+notify	B-Activity
+the	B-Actor
+MSP	I-Actor
+about	B-Activity Data
+the	I-Activity Data
+device	I-Activity Data
+changes	I-Activity Data
+,	I-Activity Data
+the	I-Activity Data
+master	I-Activity Data
+data	I-Activity Data
+,	I-Activity Data
+the	I-Activity Data
+meter	I-Activity Data
+count	I-Activity Data
+at	I-Activity Data
+dismounting	I-Activity Data
+,	I-Activity Data
+and	I-Activity Data
+the	I-Activity Data
+meter	I-Activity Data
+count	I-Activity Data
+at	I-Activity Data
+installation	I-Activity Data
+.	O
+
+The	O
+process	O
+of	O
+Vacations	O
+Request	O
+starts	O
+when	O
+any	B-Actor
+employee	I-Actor
+of	O
+the	O
+organization	O
+submits	B-Activity
+a	B-Activity Data
+vacation	I-Activity Data
+request	I-Activity Data
+.	O
+
+Once	O
+the	B-Activity Data
+requirement	I-Activity Data
+is	O
+registered	B-Activity
+,	O
+the	B-Activity Data
+request	I-Activity Data
+is	O
+received	B-Activity
+by	O
+the	B-Actor
+immediate	I-Actor
+supervisor	I-Actor
+of	O
+the	O
+employee	O
+requesting	O
+the	O
+vacation	O
+.	O
+
+The	B-Actor
+supervisor	I-Actor
+must	O
+approve	B-Activity
+or	I-Activity
+reject	I-Activity
+the	B-Activity Data
+request	I-Activity Data
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+request	I-Condition Specification
+is	I-Condition Specification
+rejected	I-Condition Specification
+,	O
+the	B-Activity Data
+application	I-Activity Data
+is	O
+returned	B-Activity
+to	O
+the	B-Actor
+applicant	I-Actor
+/	I-Actor
+employee	I-Actor
+who	O
+can	O
+review	O
+the	O
+rejection	O
+reasons	O
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+request	I-Condition Specification
+is	I-Condition Specification
+approved	I-Condition Specification
+a	B-Activity Data
+notification	I-Activity Data
+is	O
+generated	B-Activity
+to	O
+the	B-Actor
+Human	I-Actor
+Resources	I-Actor
+Representative	I-Actor
+,	O
+who	B-Actor
+must	O
+complete	B-Activity
+the	B-Activity Data
+respective	I-Activity Data
+management	I-Activity Data
+procedures	I-Activity Data
+.	O
+
+The	O
+process	O
+of	O
+an	O
+Office	O
+Supply	O
+Request	O
+starts	O
+when	O
+any	B-Actor
+employee	I-Actor
+of	O
+the	O
+organization	O
+submits	B-Activity
+an	B-Activity Data
+office	I-Activity Data
+supply	I-Activity Data
+request	I-Activity Data
+.	O
+
+Once	O
+the	B-Activity Data
+requirement	I-Activity Data
+is	O
+registered	B-Activity
+,	O
+the	B-Activity Data
+request	I-Activity Data
+is	O
+received	B-Activity
+by	O
+the	B-Actor
+immediate	I-Actor
+supervisor	I-Actor
+of	I-Actor
+the	I-Actor
+employee	I-Actor
+requesting	O
+the	O
+office	O
+supplies	O
+.	O
+
+The	B-Actor
+supervisor	I-Actor
+must	O
+approve	B-Activity
+or	I-Activity
+ask	I-Activity
+for	I-Activity
+a	I-Activity
+change	I-Activity
+,	I-Activity
+or	I-Activity
+reject	I-Activity
+the	B-Activity Data
+request	I-Activity Data
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+request	I-Condition Specification
+is	I-Condition Specification
+rejected	I-Condition Specification
+the	O
+process	O
+will	O
+end	O
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+request	I-Condition Specification
+is	I-Condition Specification
+asked	I-Condition Specification
+to	I-Condition Specification
+make	I-Condition Specification
+a	I-Condition Specification
+change	I-Condition Specification
+then	O
+it	B-Activity Data
+is	O
+returned	B-Activity
+to	O
+the	B-Actor
+petitioner	I-Actor
+/	I-Actor
+employee	I-Actor
+who	O
+can	O
+review	B-Activity
+the	B-Activity Data
+comments	I-Activity Data
+for	I-Activity Data
+the	I-Activity Data
+change	I-Activity Data
+request	I-Activity Data
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+request	I-Condition Specification
+is	I-Condition Specification
+approved	I-Condition Specification
+it	B-Activity Data
+will	O
+go	B-Activity
+to	O
+the	B-Actor
+purchase	I-Actor
+department	I-Actor
+that	O
+will	O
+be	O
+in	O
+charge	O
+of	O
+making	B-Activity
+quotations	B-Activity Data
+(	O
+using	O
+a	O
+subprocess	O
+)	O
+and	O
+select	B-Activity
+a	B-Activity Data
+vendor	I-Activity Data
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+vendor	I-Condition Specification
+is	I-Condition Specification
+not	I-Condition Specification
+valid	I-Condition Specification
+in	I-Condition Specification
+the	I-Condition Specification
+system	I-Condition Specification
+the	B-Actor
+purchase	I-Actor
+department	I-Actor
+will	O
+have	O
+to	O
+choose	B-Activity
+a	B-Activity Data
+different	I-Activity Data
+vendor	I-Activity Data
+.	O
+
+After	O
+a	B-Activity Data
+vendor	I-Activity Data
+is	O
+selected	B-Activity
+and	O
+confirmed	B-Activity
+,	O
+the	B-Actor
+system	I-Actor
+will	O
+generate	B-Activity
+and	O
+send	B-Activity
+a	B-Activity Data
+purchase	I-Activity Data
+order	I-Activity Data
+and	O
+wait	B-Activity
+for	I-Activity
+the	B-Activity Data
+product	I-Activity Data
+to	I-Activity Data
+be	I-Activity Data
+delivered	I-Activity Data
+and	O
+the	B-Activity Data
+invoice	I-Activity Data
+received	I-Activity Data
+.	O
+
+In	O
+any	O
+case	O
+the	O
+system	O
+will	O
+send	O
+a	O
+notification	O
+to	O
+let	O
+the	O
+user	O
+know	O
+what	O
+the	O
+result	O
+was	O
+.	O
+
+In	O
+any	O
+of	O
+the	O
+cases	O
+,	O
+approval	O
+,	O
+rejection	O
+or	O
+change	O
+required	O
+the	B-Actor
+system	I-Actor
+will	O
+send	B-Activity
+the	B-Actor
+user	I-Actor
+a	B-Activity Data
+notification	I-Activity Data
+.	O
+
+Every	O
+time	O
+we	O
+get	B-Activity
+a	B-Activity Data
+new	I-Activity Data
+order	I-Activity Data
+from	O
+the	B-Actor
+sales	I-Actor
+department	I-Actor
+,	O
+first	O
+,	O
+one	B-Actor
+of	I-Actor
+my	I-Actor
+masters	I-Actor
+determines	B-Activity
+the	B-Activity Data
+necessary	I-Activity Data
+parts	I-Activity Data
+and	I-Activity Data
+quantities	I-Activity Data
+as	I-Activity Data
+well	I-Activity Data
+as	I-Activity Data
+the	I-Activity Data
+delivery	I-Activity Data
+date	I-Activity Data
+.	O
+
+Once	O
+that	O
+information	O
+is	O
+present	O
+,	O
+it	B-Activity Data
+has	O
+to	O
+be	O
+entered	B-Activity
+into	O
+our	O
+production	O
+planning	O
+system	O
+(	O
+PPS	O
+)	O
+.	O
+
+It	O
+optimizes	O
+our	O
+production	O
+processes	O
+and	O
+creates	O
+possibly	O
+uniform	O
+work	O
+packages	O
+so	O
+that	O
+the	O
+setup	O
+times	O
+are	O
+minimized	O
+.	O
+
+Besides	O
+,	O
+it	B-Actor
+creates	B-Activity
+a	B-Activity Data
+list	I-Activity Data
+of	I-Activity Data
+parts	I-Activity Data
+to	O
+be	O
+procured	O
+.	O
+
+Unfortunately	O
+it	O
+is	O
+not	O
+coupled	O
+correctly	O
+to	O
+our	O
+Enterprise	O
+Resource	O
+Planning	O
+system	O
+(	O
+ERP	O
+)	O
+,	O
+so	O
+the	B-Activity Data
+data	I-Activity Data
+must	O
+be	O
+transferred	B-Activity
+manually	B-Further Specification
+.	O
+
+By	O
+the	O
+way	O
+,	O
+that	O
+is	O
+the	O
+second	O
+step	O
+.	O
+
+Once	O
+all	O
+the	O
+data	O
+is	O
+present	O
+,	O
+we	O
+need	O
+to	O
+decide	O
+whether	O
+any	B-Condition Specification
+parts	I-Condition Specification
+are	I-Condition Specification
+missing	I-Condition Specification
+and	O
+must	O
+be	O
+procured	B-Activity
+or	B-XOR Gateway
+if	O
+this	O
+is	O
+not	O
+necessary	O
+.	O
+
+Once	O
+production	O
+is	O
+scheduled	O
+to	O
+start	O
+,	O
+we	B-Actor
+receive	B-Activity
+a	B-Activity Data
+notice	I-Activity Data
+from	O
+the	O
+system	O
+and	O
+an	B-Actor
+employee	I-Actor
+takes	B-Activity
+care	I-Activity
+of	O
+the	B-Activity Data
+implementation	I-Activity Data
+.	O
+
+Finally	O
+,	O
+the	B-Activity Data
+order	I-Activity Data
+will	O
+be	O
+checked	B-Activity
+again	O
+for	B-Further Specification
+its	I-Further Specification
+quality	I-Further Specification
+.	O
+

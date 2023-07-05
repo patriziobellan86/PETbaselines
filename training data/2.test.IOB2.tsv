@@ -1,0 +1,1103 @@
+A	B-Actor
+customer	I-Actor
+brings	B-Activity
+in	I-Activity
+a	B-Activity Data
+defective	I-Activity Data
+computer	I-Activity Data
+and	O
+the	B-Actor
+CRS	I-Actor
+checks	B-Activity
+the	B-Activity Data
+defect	I-Activity Data
+and	O
+hands	B-Activity
+out	I-Activity
+a	B-Activity Data
+repair	I-Activity Data
+cost	I-Activity Data
+calculation	I-Activity Data
+back	O
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+customer	I-Condition Specification
+decides	I-Condition Specification
+that	I-Condition Specification
+the	I-Condition Specification
+costs	I-Condition Specification
+are	I-Condition Specification
+acceptable	I-Condition Specification
+,	O
+the	O
+process	O
+continues	O
+,	O
+otherwise	B-XOR Gateway
+she	B-Actor
+takes	B-Activity
+her	B-Activity Data
+computer	I-Activity Data
+home	B-Further Specification
+unrepaired	I-Further Specification
+.	O
+
+The	O
+ongoing	O
+repair	O
+consists	O
+of	O
+two	O
+activities	O
+,	O
+which	O
+are	O
+executed	O
+,	O
+in	O
+an	O
+arbitrary	O
+order	O
+.	O
+
+The	O
+first	O
+activity	O
+is	O
+to	O
+check	B-Activity
+and	O
+repair	B-Activity
+the	B-Activity Data
+hardware	I-Activity Data
+,	O
+whereas	B-AND Gateway
+the	O
+second	O
+activity	O
+checks	B-Activity
+and	O
+configures	B-Activity
+the	B-Activity Data
+software	I-Activity Data
+.	O
+
+After	O
+each	O
+of	O
+these	O
+activities	O
+,	O
+the	B-Activity Data
+proper	I-Activity Data
+system	I-Activity Data
+functionality	I-Activity Data
+is	O
+tested	B-Activity
+.	O
+
+If	B-XOR Gateway
+an	B-Condition Specification
+error	I-Condition Specification
+is	I-Condition Specification
+detected	I-Condition Specification
+another	B-Activity Data
+arbitrary	I-Activity Data
+repair	I-Activity Data
+activity	I-Activity Data
+is	O
+executed	B-Activity
+,	O
+otherwise	B-XOR Gateway
+the	O
+repair	O
+is	O
+finished	O
+.	O
+
+Each	O
+morning	O
+,	O
+the	B-Activity Data
+files	I-Activity Data
+which	I-Activity Data
+have	I-Activity Data
+yet	I-Activity Data
+to	I-Activity Data
+be	I-Activity Data
+processed	I-Activity Data
+need	O
+to	O
+be	O
+checked	B-Activity
+,	O
+to	O
+make	O
+sure	O
+they	O
+are	O
+in	O
+order	O
+for	O
+the	O
+court	O
+hearing	O
+that	O
+day	O
+.	O
+
+If	B-XOR Gateway
+some	B-Condition Specification
+files	I-Condition Specification
+are	I-Condition Specification
+missing	I-Condition Specification
+,	O
+a	B-Activity Data
+search	I-Activity Data
+is	O
+initiated	B-Activity
+,	O
+otherwise	B-XOR Gateway
+the	B-Activity Data
+files	I-Activity Data
+can	O
+be	O
+physically	O
+tracked	B-Activity
+to	B-Further Specification
+the	I-Further Specification
+intended	I-Further Specification
+location	I-Further Specification
+.	O
+
+Once	O
+all	O
+the	O
+files	O
+are	O
+ready	O
+,	O
+these	B-Activity Data
+are	O
+handed	B-Activity
+to	O
+the	B-Actor
+Associate	I-Actor
+,	O
+and	O
+meantime	B-AND Gateway
+the	B-Activity Data
+Judgeis	I-Activity Data
+Lawlist	I-Activity Data
+is	O
+distributed	B-Activity
+to	O
+the	B-Actor
+relevant	I-Actor
+people	I-Actor
+.	O
+
+Afterwards	O
+,	O
+the	B-Activity Data
+directions	I-Activity Data
+hearings	I-Activity Data
+are	O
+conducted	B-Activity
+.	O
+
+In	O
+the	O
+context	O
+of	O
+a	O
+claim	O
+handling	O
+process	O
+,	O
+it	O
+is	O
+sometimes	O
+necessary	O
+to	O
+send	B-Activity
+a	B-Activity Data
+questionnaire	I-Activity Data
+to	O
+the	B-Actor
+claimant	I-Actor
+to	O
+gather	O
+additional	O
+information	O
+.	O
+
+The	B-Actor
+claimant	I-Actor
+is	O
+expected	O
+to	O
+return	B-Activity
+the	B-Activity Data
+questionnaire	I-Activity Data
+within	O
+five	O
+days	O
+.	O
+
+If	B-XOR Gateway
+no	B-Condition Specification
+response	I-Condition Specification
+is	I-Condition Specification
+received	I-Condition Specification
+after	I-Condition Specification
+five	I-Condition Specification
+days	I-Condition Specification
+,	O
+a	B-Activity Data
+reminder	I-Activity Data
+is	O
+sent	B-Activity
+to	O
+the	B-Actor
+claimant	I-Actor
+.	O
+
+If	B-XOR Gateway
+after	B-Condition Specification
+another	I-Condition Specification
+five	I-Condition Specification
+days	I-Condition Specification
+there	I-Condition Specification
+is	I-Condition Specification
+still	I-Condition Specification
+no	I-Condition Specification
+response	I-Condition Specification
+,	O
+another	B-Activity Data
+reminder	I-Activity Data
+is	O
+sent	B-Activity
+and	O
+so	O
+on	O
+until	O
+the	O
+completed	O
+questionnaire	O
+is	O
+received	O
+.	O
+
+Mail	B-Activity Data
+from	I-Activity Data
+the	I-Activity Data
+party	I-Activity Data
+is	O
+collected	B-Activity
+on	O
+a	O
+daily	O
+basis	O
+by	O
+the	B-Actor
+Mail	I-Actor
+Processing	I-Actor
+Unit	I-Actor
+.	O
+
+Within	O
+this	O
+unit	O
+,	O
+the	B-Actor
+Mail	I-Actor
+Clerk	I-Actor
+sorts	B-Activity
+the	B-Activity Data
+unopened	I-Activity Data
+mail	I-Activity Data
+into	B-Further Specification
+the	I-Further Specification
+various	I-Further Specification
+business	I-Further Specification
+areas	I-Further Specification
+.	O
+
+The	B-Activity Data
+mail	I-Activity Data
+is	O
+then	O
+distributed	B-Activity
+.	O
+
+When	O
+the	B-Activity Data
+mail	I-Activity Data
+is	O
+received	B-Activity
+by	O
+the	B-Actor
+Registry	I-Actor
+,	O
+it	B-Activity Data
+is	O
+opened	B-Activity
+and	O
+sorted	B-Activity
+into	O
+groups	O
+for	O
+distribution	O
+,	O
+and	O
+thus	O
+registered	B-Activity
+in	B-Further Specification
+a	I-Further Specification
+manual	I-Further Specification
+incoming	I-Further Specification
+Mail	I-Further Specification
+Register	I-Further Specification
+.	O
+
+Afterwards	O
+,	O
+the	B-Actor
+Assistant	I-Actor
+Registry	I-Actor
+Manager	I-Actor
+within	O
+the	O
+Registry	O
+performs	B-Activity
+a	I-Activity
+quality	I-Activity
+check	I-Activity
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+mail	I-Condition Specification
+is	I-Condition Specification
+not	I-Condition Specification
+compliant	I-Condition Specification
+,	O
+a	B-Activity Data
+list	I-Activity Data
+of	I-Activity Data
+requisition	I-Activity Data
+explaining	O
+the	O
+reason	O
+for	O
+rejection	O
+is	O
+compiled	B-Activity
+and	O
+sent	B-Activity
+back	I-Activity
+to	O
+the	B-Actor
+party	I-Actor
+.	O
+
+Otherwise	B-XOR Gateway
+,	O
+the	B-Activity Data
+matter	I-Activity Data
+details	I-Activity Data
+(	O
+types	O
+of	O
+action	O
+)	O
+are	O
+captured	B-Activity
+and	O
+provided	B-Activity
+to	O
+the	B-Actor
+Cashier	I-Actor
+,	O
+who	B-Actor
+takes	B-Activity
+the	O
+applicable	O
+fees	O
+attached	O
+to	O
+the	O
+mail	O
+.	O
+
+At	O
+this	O
+point	O
+,	O
+the	B-Actor
+Assistant	I-Actor
+Registry	I-Actor
+Manager	I-Actor
+puts	B-Activity
+the	B-Activity Data
+receipt	I-Activity Data
+and	I-Activity Data
+copied	I-Activity Data
+documents	I-Activity Data
+into	B-Further Specification
+an	I-Further Specification
+envelope	I-Further Specification
+and	O
+posts	B-Activity
+it	B-Activity Data
+to	O
+the	B-Actor
+party	I-Actor
+.	O
+
+Meantime	B-AND Gateway
+,	O
+the	B-Actor
+Cashier	I-Actor
+captures	B-Activity
+the	B-Activity Data
+Party	I-Activity Data
+Details	I-Activity Data
+and	O
+prints	B-Activity
+the	B-Activity Data
+Physical	I-Activity Data
+Court	I-Activity Data
+File	I-Activity Data
+.	O
+
+The	B-Activity Data
+Police	I-Activity Data
+Report	I-Activity Data
+related	O
+to	O
+the	O
+car	O
+accident	O
+is	O
+searched	B-Activity
+within	B-Further Specification
+the	I-Further Specification
+Police	I-Further Specification
+Report	I-Further Specification
+database	I-Further Specification
+and	O
+put	B-Activity
+in	B-Further Specification
+a	I-Further Specification
+file	I-Further Specification
+together	I-Further Specification
+with	I-Further Specification
+the	I-Further Specification
+Claim	I-Further Specification
+Documentation	I-Further Specification
+.	O
+
+This	O
+file	O
+serves	O
+as	O
+input	O
+to	O
+a	O
+claims	O
+handler	O
+who	B-Actor
+calculates	B-Activity
+an	B-Activity Data
+initial	I-Activity Data
+claim	I-Activity Data
+estimate	I-Activity Data
+.	O
+
+Then	O
+,	O
+the	B-Actor
+claims	I-Actor
+handler	I-Actor
+creates	B-Activity
+an	B-Activity Data
+Action	I-Activity Data
+Plan	I-Activity Data
+based	O
+on	O
+an	O
+Action	O
+Plan	O
+Checklist	O
+available	O
+in	O
+the	O
+Document	O
+Management	O
+system	O
+.	O
+
+Based	O
+on	O
+the	O
+Action	O
+Plan	O
+,	O
+a	B-Actor
+claims	I-Actor
+manager	I-Actor
+tries	O
+to	O
+negotiate	B-Activity
+a	B-Activity Data
+settlement	I-Activity Data
+on	O
+the	O
+claim	O
+estimate	O
+.	O
+
+The	B-Actor
+claimant	I-Actor
+is	O
+informed	B-Activity
+of	O
+the	B-Activity Data
+outcome	I-Activity Data
+,	O
+which	O
+ends	O
+the	O
+process	O
+.	O
+
+An	B-Actor
+employee	I-Actor
+purchases	B-Activity
+a	B-Activity Data
+product	I-Activity Data
+or	I-Activity Data
+service	I-Activity Data
+he	O
+requires	O
+.	O
+
+For	O
+instance	O
+,	O
+a	O
+sales	O
+person	O
+on	O
+a	O
+trip	O
+rents	O
+a	O
+car	O
+.	O
+
+The	B-Actor
+employee	I-Actor
+submits	B-Activity
+an	B-Activity Data
+expense	I-Activity Data
+report	I-Activity Data
+with	O
+a	O
+list	O
+of	O
+items	O
+,	O
+along	O
+with	O
+the	O
+receipts	O
+for	O
+each	O
+item	O
+.	O
+
+A	B-Actor
+supervisor	I-Actor
+reviews	B-Activity
+the	B-Activity Data
+expense	I-Activity Data
+report	I-Activity Data
+and	O
+approves	B-Activity
+or	I-Activity
+rejects	I-Activity
+the	B-Activity Data
+report	I-Activity Data
+.	O
+
+Since	O
+the	O
+company	O
+has	O
+expense	O
+rules	O
+,	O
+there	O
+are	O
+circumstances	O
+where	O
+the	O
+supervisor	O
+can	O
+accept	O
+or	O
+reject	O
+the	O
+report	O
+upon	O
+first	O
+inspection	O
+.	O
+
+These	O
+rules	O
+could	O
+be	O
+automated	O
+,	O
+to	O
+reduce	O
+the	O
+workload	O
+on	O
+the	O
+supervisor	O
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+supervisor	I-Condition Specification
+rejects	I-Condition Specification
+the	I-Condition Specification
+report	I-Condition Specification
+,	O
+the	B-Actor
+employee	I-Actor
+,	O
+who	O
+submitted	O
+it	O
+,	O
+is	O
+given	O
+a	O
+chance	O
+to	O
+edit	B-Activity
+it	B-Activity Data
+,	O
+for	O
+example	O
+to	O
+correct	O
+errors	O
+or	O
+better	O
+describe	O
+an	O
+expense	O
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+supervisor	I-Condition Specification
+approves	I-Condition Specification
+the	I-Condition Specification
+report	I-Condition Specification
+,	O
+it	B-Activity Data
+goes	B-Activity
+to	O
+the	B-Actor
+treasurer	I-Actor
+.	O
+
+The	B-Actor
+treasurer	I-Actor
+checks	B-Activity
+that	O
+all	O
+the	B-Activity Data
+receipts	I-Activity Data
+have	O
+been	O
+submitted	O
+and	O
+match	O
+the	O
+items	O
+on	O
+the	O
+list	O
+.	O
+
+If	B-XOR Gateway
+all	B-Condition Specification
+is	I-Condition Specification
+in	I-Condition Specification
+order	I-Condition Specification
+,	O
+the	B-Actor
+treasurer	I-Actor
+accepts	B-Activity
+the	B-Activity Data
+expenses	I-Activity Data
+for	O
+processing	O
+(	O
+including	O
+,	O
+e.g	O
+.	O
+,	O
+payment	O
+or	O
+refund	O
+,	O
+and	O
+accounting	O
+)	O
+.	O
+
+If	B-XOR Gateway
+receipts	B-Condition Specification
+are	I-Condition Specification
+missing	I-Condition Specification
+or	I-Condition Specification
+do	I-Condition Specification
+not	I-Condition Specification
+match	I-Condition Specification
+the	I-Condition Specification
+report	I-Condition Specification
+,	O
+he	B-Actor
+sends	B-Activity
+it	B-Activity Data
+back	O
+to	O
+the	B-Actor
+employee	I-Actor
+.	O
+
+If	O
+a	O
+report	O
+returns	O
+to	O
+the	O
+employee	O
+for	O
+corrections	O
+,	O
+it	O
+must	O
+again	O
+go	O
+to	O
+a	O
+supervisor	O
+,	O
+even	O
+if	O
+the	O
+supervisor	O
+previously	O
+approved	O
+the	O
+report	O
+.	O
+
+If	O
+the	O
+treasurer	O
+accepts	O
+the	O
+expenses	O
+for	O
+processing	O
+,	O
+the	O
+report	O
+moves	O
+to	O
+an	O
+automatic	O
+activity	O
+that	O
+links	O
+to	O
+a	O
+payment	O
+system	O
+.	O
+
+The	O
+process	O
+waits	O
+for	O
+the	O
+payment	O
+confirmation	O
+.	O
+
+After	O
+the	B-Activity Data
+payment	I-Activity Data
+is	O
+confirmed	B-Activity
+,	O
+the	O
+process	O
+ends	O
+.	O
+
+I	O
+am	O
+the	O
+Head	O
+of	O
+the	O
+functional	O
+department	O
+.	O
+
+When	O
+I	B-Actor
+have	O
+detected	B-Activity
+a	B-Activity Data
+number	I-Activity Data
+of	I-Activity Data
+personnel	I-Activity Data
+requirements	I-Activity Data
+,	O
+I	B-Actor
+report	B-Activity
+the	B-Activity Data
+vacancy	I-Activity Data
+to	O
+the	B-Actor
+Personnel	I-Actor
+Department	I-Actor
+.	O
+
+Then	O
+I	B-Actor
+wait	O
+to	O
+get	B-Activity
+the	B-Activity Data
+job	I-Activity Data
+description	I-Activity Data
+for	I-Activity Data
+review	I-Activity Data
+before	O
+it	B-Activity Data
+is	O
+advertized	B-Activity
+.	O
+
+Under	B-XOR Gateway
+certain	I-XOR Gateway
+circumstances	I-XOR Gateway
+,	O
+I	B-Actor
+must	O
+ask	B-Activity
+for	O
+corrections	B-Activity Data
+again	O
+,	O
+otherwise	B-XOR Gateway
+I	B-Actor
+approve	B-Activity
+the	B-Activity Data
+job	I-Activity Data
+description	I-Activity Data
+.	O
+
+Sometimes	O
+it	O
+also	O
+happens	O
+that	O
+the	O
+colleague	O
+from	O
+the	O
+HR	O
+department	O
+still	O
+has	O
+questions	O
+about	O
+the	O
+tasks	O
+and	O
+requirements	O
+before	O
+he	O
+can	O
+describe	O
+the	O
+job	O
+.	O
+
+Then	O
+I	O
+am	O
+available	O
+for	O
+clarifications	O
+,	O
+of	O
+course	O
+.	O
+
+After	O
+the	B-Activity Data
+Expense	I-Activity Data
+Report	I-Activity Data
+is	O
+received	B-Activity
+,	O
+a	B-Activity Data
+new	I-Activity Data
+account	I-Activity Data
+must	O
+be	O
+created	B-Activity
+if	B-XOR Gateway
+the	B-Condition Specification
+employee	I-Condition Specification
+does	I-Condition Specification
+not	I-Condition Specification
+already	I-Condition Specification
+have	I-Condition Specification
+one	I-Condition Specification
+.	O
+
+The	B-Activity Data
+report	I-Activity Data
+is	O
+then	O
+reviewed	B-Activity
+for	B-Further Specification
+automatic	I-Further Specification
+approval	I-Further Specification
+.	O
+
+Amounts	B-Condition Specification
+under	I-Condition Specification
+$200	I-Condition Specification
+are	O
+automatically	B-Further Specification
+approved	B-Activity
+,	O
+whereas	B-XOR Gateway
+amounts	B-Condition Specification
+equal	I-Condition Specification
+to	I-Condition Specification
+or	I-Condition Specification
+over	I-Condition Specification
+$200	I-Condition Specification
+require	B-Activity
+approval	B-Activity Data
+of	O
+the	B-Actor
+supervisor	I-Actor
+.	O
+
+In	B-XOR Gateway
+case	I-XOR Gateway
+of	I-XOR Gateway
+rejection	B-Condition Specification
+,	O
+the	B-Actor
+employee	I-Actor
+must	O
+receive	B-Activity
+a	B-Activity Data
+rejection	I-Activity Data
+notice	I-Activity Data
+by	B-Further Specification
+email	I-Further Specification
+.	O
+
+Otherwise	B-XOR Gateway
+,	O
+the	B-Activity Data
+reimbursement	I-Activity Data
+goes	B-Activity
+to	B-Further Specification
+the	I-Further Specification
+employees	I-Further Specification
+direct	I-Further Specification
+deposit	I-Further Specification
+bank	I-Further Specification
+account	I-Further Specification
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+request	I-Condition Specification
+is	I-Condition Specification
+not	I-Condition Specification
+completed	I-Condition Specification
+in	I-Condition Specification
+7	I-Condition Specification
+days	I-Condition Specification
+,	O
+then	O
+the	B-Actor
+employee	I-Actor
+must	O
+receive	B-Activity
+an	B-Activity Data
+approval	I-Activity Data
+in	I-Activity Data
+progress	I-Activity Data
+email	I-Activity Data
+.	O
+
+If	B-XOR Gateway
+the	B-Condition Specification
+request	I-Condition Specification
+is	I-Condition Specification
+not	I-Condition Specification
+finished	I-Condition Specification
+within	I-Condition Specification
+30	I-Condition Specification
+days	I-Condition Specification
+,	O
+then	O
+the	O
+process	O
+is	O
+stopped	O
+and	O
+the	B-Actor
+employee	I-Actor
+receives	B-Activity
+an	B-Activity Data
+email	I-Activity Data
+cancellation	I-Activity Data
+notice	I-Activity Data
+and	O
+must	O
+re-submit	B-Activity
+the	B-Activity Data
+expense	I-Activity Data
+report	I-Activity Data
+.	O
+
